@@ -1,139 +1,141 @@
 # 🧠 NeuroDesk
 
-### Modern Workspace & Task Management Application
+### Aplikasi Manajemen Tugas dan Workspace Modern
 
-NeuroDesk is a modern web-based workspace application designed to help users organize tasks, manage their workflow, and improve productivity through an intuitive dashboard.
+NeuroDesk adalah aplikasi workspace berbasis web yang dirancang untuk membantu pengguna mengatur tugas, mengelola aktivitas kerja, dan meningkatkan produktivitas melalui dashboard yang modern dan intuitif.
 
-Built with Laravel, React, and Inertia.js, NeuroDesk combines a robust backend with a responsive and interactive user interface.
-
----
-
-## ✨ Features
-
-- 🔐 **Authentication System** — User registration, login, logout, and password reset.
-- 📊 **Dashboard** — Centralized workspace for authenticated users.
-- ✅ **Task Management** — Manage and organize tasks.
-- 👤 **Profile Management** — Update user profile information.
-- 🔒 **Security Settings** — Password management and two-factor authentication support.
-- 📱 **Responsive UI** — Modern interface designed for different screen sizes.
-- 🧪 **Automated Testing** — Tested authentication, dashboard, and account settings functionality.
+Aplikasi ini dikembangkan menggunakan Laravel, React, dan Inertia.js, dengan menggabungkan backend yang kuat serta antarmuka pengguna yang interaktif dan responsif.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Fitur Utama
 
-| Technology | Description |
+- 🔐 **Sistem Autentikasi** — Registrasi, login, logout, dan reset password.
+- 📊 **Dashboard** — Halaman utama untuk pengguna yang telah login.
+- ✅ **Manajemen Tugas** — Mengelola dan mengorganisir tugas.
+- 👤 **Manajemen Profil** — Memperbarui informasi profil pengguna.
+- 🔒 **Pengaturan Keamanan** — Pengelolaan password dan dukungan autentikasi dua faktor (2FA).
+- 📱 **Antarmuka Responsif** — Tampilan modern yang menyesuaikan berbagai ukuran layar.
+- 🧪 **Pengujian Otomatis** — Pengujian fitur autentikasi, dashboard, profil, dan pengaturan keamanan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Kegunaan |
 |---|---|
-| Laravel | Backend framework |
-| PHP | Server-side programming language |
-| React | Frontend library |
-| TypeScript | Frontend programming language |
-| Inertia.js | Laravel and React integration |
-| Tailwind CSS | Utility-first CSS framework |
-| Vite | Frontend build tool |
-| SQLite / MySQL | Database |
-| Git & GitHub | Version control |
+| Laravel | Framework backend |
+| PHP | Bahasa pemrograman sisi server |
+| React | Library untuk membangun antarmuka |
+| TypeScript | Bahasa pemrograman frontend |
+| Inertia.js | Integrasi Laravel dengan React |
+| Tailwind CSS | Framework styling berbasis utility |
+| Vite | Build tool frontend |
+| SQLite / MySQL | Sistem basis data |
+| Git & GitHub | Version control dan pengelolaan repository |
 
 ---
 
-## 📸 Screenshots
+## 📸 Tampilan Aplikasi
 
-Screenshots of the application will be added here.
+Screenshot aplikasi akan ditambahkan pada bagian ini.
 
-<!-- Add screenshots after capturing the application -->
+<!-- Tambahkan screenshot aplikasi setelah proses pengambilan gambar -->
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Instalasi dan Menjalankan Project
 
-### Prerequisites
+### Persyaratan
 
-Make sure you have installed:
+Pastikan perangkat sudah memiliki:
 
 - PHP
 - Composer
 - Node.js
 - npm
-- Database supported by Laravel
+- Database yang didukung Laravel
 
-### 1. Clone the Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/alawialthaf63-droid/NeuroDesk.git
 ```
 
-### 2. Navigate to the Project
+### 2. Masuk ke Direktori Project
 
 ```bash
 cd NeuroDesk
 ```
 
-### 3. Install Dependencies
+### 3. Instal Dependensi
 
 ```bash
 composer install
 npm install
 ```
 
-### 4. Configure Environment
+### 4. Konfigurasi Environment
 
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-Configure your database connection in the `.env` file.
+Sesuaikan konfigurasi database pada file `.env`.
 
-### 5. Run Database Migrations
+### 5. Jalankan Migrasi Database
 
 ```bash
 php artisan migrate
 ```
 
-### 6. Build Frontend Assets
+### 6. Build Asset Frontend
 
 ```bash
 npm run build
 ```
 
-### 7. Start the Application
+### 7. Jalankan Aplikasi
 
 ```bash
 composer run dev
 ```
 
-Open the local URL provided in your terminal.
+Buka alamat lokal yang ditampilkan pada terminal untuk mengakses aplikasi.
 
 ---
 
-## 🧪 Testing
+## 🧪 Pengujian Aplikasi
 
-NeuroDesk includes automated tests covering authentication, dashboard access, profile management, and security settings.
+NeuroDesk dilengkapi dengan pengujian otomatis untuk memastikan fitur-fitur utama berjalan dengan baik.
 
-Run the test suite:
+Jalankan pengujian menggunakan perintah:
 
 ```bash
 php artisan test
 ```
 
-### Latest Test Results
+### Hasil Pengujian Terakhir
 
-| Metric | Result |
+| Keterangan | Hasil |
 |---|---:|
-| Tests Passed | 40 |
+| Pengujian Berhasil | 40 |
 | Assertions | 138 |
-| Failures | 0 |
-| Duration | 13.69 seconds |
+| Kegagalan | 0 |
+| Durasi | 13,69 detik |
+
+Seluruh 40 pengujian berhasil dijalankan tanpa kegagalan.
 
 ---
 
-## 🚀 Project Status
+## 🚀 Status Project
 
-NeuroDesk is a personal development project focused on building practical web development skills and exploring modern application architecture.
+NeuroDesk merupakan project pengembangan pribadi yang dibuat untuk meningkatkan keterampilan dalam pengembangan aplikasi web, memahami arsitektur aplikasi modern, serta menerapkan teknologi Laravel dan React dalam project nyata.
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Pengembang
 
 **Althaf Alawi**
 
@@ -142,5 +144,5 @@ NeuroDesk is a personal development project focused on building practical web de
 ---
 
 <p align="center">
-  Developed with Laravel, React, and Inertia.js
+  Dikembangkan menggunakan Laravel, React, dan Inertia.js
 </p>
